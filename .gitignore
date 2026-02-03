@@ -1,0 +1,17 @@
+.DS_Store
+node_modules
+/build
+/dist
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+.vercel
+src/routes/stats/try.svelte
+MULTI_ASSET_CROWDFUND_INTEGRATION.md
+MULTI_ASSET_UI_GUIDE.md
+src/routes/admin/orders/+page.svelte
+src/routes/api/admin/order-action/+server.ts
