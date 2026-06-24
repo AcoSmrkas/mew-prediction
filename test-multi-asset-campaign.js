@@ -9,7 +9,7 @@ const campaignData = {
     end_date: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString(), // 7 days from now
     min_contribution: 0.5,
     max_contribution: 5000,
-    applicant: "9fCMmB72WcFLseNx6QANheTCrDjKeb9FzdFNTdBREt2FzHTmusY", // MEW fee address as test
+    applicant: "9hMRoSfXZJs83S2hLqxZZ8ivw1L8FFgSk7RJB7eq2qXyxU2paED", // MEW fee address as test
     txid: "test_" + Date.now(), // Test transaction ID
 
     // Legacy fields (first token for backward compatibility)
@@ -48,7 +48,7 @@ const campaignData = {
     status_phase: "active",
     whitelist_required: false,
     kyc_required: false,
-    recipient_address: "9fCMmB72WcFLseNx6QANheTCrDjKeb9FzdFNTdBREt2FzHTmusY"
+    recipient_address: "9hMRoSfXZJs83S2hLqxZZ8ivw1L8FFgSk7RJB7eq2qXyxU2paED"
 };
 
 async function createCampaign() {
