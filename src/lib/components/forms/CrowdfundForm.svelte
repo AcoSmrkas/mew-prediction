@@ -5,7 +5,7 @@
     import { Trash2, Plus } from 'lucide-svelte';
 
     export let data = {
-        recipient_address: MEW_FEE_ADDRESS_ERGO, // Set MEW fee address as recipient
+        recipient_address: MEW_FEE_ADDRESS_ERGO, // Set MEOW fee address as recipient
         base_name: "ERG",
         base_token_id: null,
         base_decimals: 9,
